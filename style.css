@@ -1,0 +1,261 @@
+body {
+    background-image: url(background.avif);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Outfit';
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.social-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 16px;
+    width: 100%;
+    height: 290px;
+    animation-name: popUpProjectInformation;
+    animation-timing-function: ease-in-out; 
+    animation-duration: 3s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    box-shadow: 0px 0px 15px 1px whitesmoke;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    transform: translateY(12px);
+    transform: scale(0.9);
+}
+
+.languages-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    animation-name: slideLeftRightLanguageBar;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    transform: translateY(-10px);
+}
+
+#discord-logo, #youtube-logo {
+    animation-name: rotateSocialIconDSYT;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+
+#latest-video {
+    border: none;
+    animation-name: skewVideo, heartBeat;
+    animation-duration: 3s, 3s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-play-state: running, running;
+    animation-iteration-count: 1, infinite;
+    animation-delay: 0s, 4s;
+    box-shadow: 0px 0px 15px 1px purple;
+}
+
+#linktree-logo, #github-logo {
+    animation-name: rotateSocialIconLTGH;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+
+#title {
+    color: white;
+    animation-name: slideDownUpTitle;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+}
+
+#dev-quote {
+    color: white;
+    animation-name: slideUpDownDevQuote;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+}
+
+@keyframes skewVideo {
+    0% {
+        transform: skew(0deg, 0deg);
+        opacity: 0.25;
+    }
+    25% {
+        transform: skew(10deg, 20deg);
+        opacity: 0.50;
+    }
+    50% {
+        transform: skew(170deg, 160deg);
+        opacity: 0.75;
+    }
+    100% {
+        transform: skew(0deg, 0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateSocialIconDSYT {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    50% {
+        transform: rotate(180deg);
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateSocialIconLTGH {
+    0% {
+        transform: rotate(-0deg);
+        opacity: 0;
+    }
+    50% {
+        transform: rotate(-180deg);
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotate(-360deg);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeftRightLanguageBar {
+    0% {
+        transform: translateX(0px);
+        opacity: 0.25;
+    }
+    25% {
+        transform: translateX(-400px);
+        opacity: 0.5;
+    }
+    50% {
+        transform: translateX(400px);
+        opacity: 0.75;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDownUpTitle {
+    0% {
+        transform: translateY(0px);
+        opacity: 0.25;
+    }
+    25% {
+        transform: translateY(100vh);
+        opacity: 0.5;
+    }
+    50% {
+        transform: translateY(-100vh);
+        opacity: 0.75;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUpDownDevQuote {
+    0% {
+        transform: translateY(0px);
+        opacity: 0.25;
+    }
+    25% {
+        transform: translateY(-100vh);
+        opacity: 0.5;
+    }
+    50% {
+        transform: translateY(100vh);
+        opacity: 0.75;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes popUpProjectInformation {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(0.45);
+        opacity: 0.25;
+    }
+    100% {
+        transform: scale(0.9);
+        opacity: 0.50;
+    }
+}
+
+@keyframes heartBeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.project-information:hover {
+    box-shadow: 0px 0px 25px 0px white;
+}
+
+#c_plus_plus-logo:hover, #python-logo:hover, #java-logo:hover, #html-logo:hover, #css-logo:hover, #js-logo:hover{
+    transform: rotateY(360deg);
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    transition-delay: 0s;
+}
+
+#discord-logo:hover, #youtube-logo:hover, #linktree-logo:hover, #github-logo:hover {
+    transform: rotateX(360deg);
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    transition-delay: 0s;
+}
+
+#latest-video:hover {
+    animation-play-state: paused;
+}
