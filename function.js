@@ -10,7 +10,7 @@ let languageCSS = document.getElementById("css-logo");
 let languageJS = document.getElementById("js-logo");
 
 function openDiscord() {
-    window.alert("Discord Server (Code AsG) - Coming Soon!")
+    window.open("https://discord.gg/srqA35jrP", "_blank");
 }
 
 function openYouTube() {
