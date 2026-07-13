@@ -1,6 +1,6 @@
 # Latest Personal Website Project
 
-Features in Design
+Features in Website
 
 How it Works
 
