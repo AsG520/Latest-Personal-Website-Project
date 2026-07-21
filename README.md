@@ -8,6 +8,12 @@ Features in Website
 - The title displays my real name. 
 
 How it Works
+- Clickable programming language icons enhanced that will bring you to a Wikipedia page explaining that specfic type of language.
+- Heart beat scaling feature embedded towards latest video to bring attention, when hovering will stop animation.
+- Crystal glass background included in project timeline for modern appearance and hovering box shadow effect.
+- One hundred eighty degree turn effect for social and programming language icons.
+- Light blue background attached for cool aesthetic to overall website.
+- Clicking on the video will play without going to YouTube. 
 
 Requirements
 - IDE (e.g., VS Code, Eclipse, or IntelliJ).
