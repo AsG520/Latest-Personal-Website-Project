@@ -1,6 +1,11 @@
 # Latest Personal Website Project
 
 Features in Website
+- Includes and my latest video posted on YouTube.
+- Organized timeline shown for completed projects in the past and upcoming projects for the future.
+- Social accounts are referenced under the programming languages (e.g. Discord Server, YouTube, etc).
+- Showcases the programming languages, which I am comfortable with shown under the main title.
+- The title displays my real name. 
 
 How it Works
 
