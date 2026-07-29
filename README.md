@@ -1,5 +1,8 @@
 # Latest Personal Website Project
 
+## Visual of Website
+<img width="396" height="543" alt="Image" src="https://github.com/user-attachments/assets/3d0655d3-ee50-4d8c-bf06-1f180dcb099d" />
+
 ## Features in Website
 - Includes and my latest video posted on YouTube.
 - Organized timeline shown for completed projects in the past and upcoming projects for the future.
