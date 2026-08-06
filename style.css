@@ -24,7 +24,11 @@ body {
     justify-content: center;
     border-radius: 16px;
     width: 100%;
+<<<<<<< HEAD
     height: 420px;
+=======
+    height: 440px;
+>>>>>>> ba7e38348c63a88850dc9e26511d6c4d93a8b515
     align-items: center;
     text-align: center;
     text-wrap: wrap;
