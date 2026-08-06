@@ -2,6 +2,8 @@ let discordAccount = document.getElementById("discord-logo");
 let youtubeAccount = document.getElementById("youtube-logo");
 let linktreeAccount = document.getElementById("linktree-logo");
 let githubAccount = document.getElementById("github-logo");
+let leetcodeAccount = document.getElementById("leetcode-logo");
+let originalWebsite = document.getElementById("original-website-logo");
 let languageCPlusPlus = document.getElementById("c_plus_plus-logo");
 let languagePython = document.getElementById("python-logo");
 let languageJava = document.getElementById("java-logo");
@@ -23,6 +25,14 @@ function openLinktree() {
 
 function openGitHub() {
     window.open("https://github.com/AsG520", "_blank");
+}
+
+function openLeetCode() {
+    window.open("https://leetcode.com/u/asgirn520/", "_blank");
+}
+
+function openOriginalWebsite() {
+    window.open("https://asg520.github.io/Original-Personal-Website-Project/", "_blank");
 }
 
 function openCPlusPlus() {
@@ -53,6 +63,8 @@ discordAccount.addEventListener("click", openDiscord);
 youtubeAccount.addEventListener("click", openYouTube);
 linktreeAccount.addEventListener("click", openLinktree)
 githubAccount.addEventListener("click", openGitHub);
+leetcodeAccount.addEventListener("click", openLeetCode);
+originalWebsite.addEventListener("click", openOriginalWebsite);
 languageCPlusPlus.addEventListener("click", openCPlusPlus);
 languagePython.addEventListener("click", openPython);
 languageJava.addEventListener("click", openJava);

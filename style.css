@@ -16,14 +16,15 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 
 .project-information {
     display: flex;
     justify-content: center;
     border-radius: 16px;
-    width: 70%;
-    height: 300px;
+    width: 100%;
+    height: 420px;
     align-items: center;
     text-align: center;
     text-wrap: wrap;
@@ -56,8 +57,9 @@ body {
 }
 
 #discord-logo,
-#youtube-logo {
-    animation-name: rotateSocialIconDSYT;
+#youtube-logo,
+#leetcode-logo {
+    animation-name: rotateSocialIconDSYTLC;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
@@ -77,8 +79,9 @@ body {
 }
 
 #linktree-logo,
-#github-logo {
-    animation-name: rotateSocialIconLTGH;
+#github-logo,
+#original-website-logo {
+    animation-name: rotateSocialIconLTGHOW;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
@@ -128,7 +131,7 @@ body {
     }
 }
 
-@keyframes rotateSocialIconDSYT {
+@keyframes rotateSocialIconDSYTLC {
     0% {
         transform: rotate(0deg);
         opacity: 0;
@@ -145,7 +148,7 @@ body {
     }
 }
 
-@keyframes rotateSocialIconLTGH {
+@keyframes rotateSocialIconLTGHOW {
     0% {
         transform: rotate(-0deg);
         opacity: 0;
@@ -278,13 +281,15 @@ body {
 #discord-logo:hover,
 #youtube-logo:hover,
 #linktree-logo:hover,
-#github-logo:hover {
+#github-logo:hover, 
+#leetcode-logo:hover, 
+#original-website-logo:hover {
     transform: rotateX(360deg);
     transition-timing-function: ease-in-out;
     transition-duration: 2s;
     transition-delay: 0s;
 }
 
-#latest-video:hover {
+#original-video:hover {
     animation-play-state: paused;
 }
