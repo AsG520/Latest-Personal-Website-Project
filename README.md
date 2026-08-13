@@ -1,4 +1,4 @@
-# Latest Personal Website Project
+# 🌐 Latest Personal Website Project
 
 ## 📘 Table of Contents
 - Visual of Website
