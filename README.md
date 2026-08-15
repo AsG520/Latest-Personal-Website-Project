@@ -1,14 +1,10 @@
 # 🌐 Latest Personal Website Project
 
 ## 📘 Table of Contents
-- 🎨 Visual of Website
 - 🔥 Features in Website
 - 🛠️ How it Works
 - 🎯 Requirements
 - 💻 How to Run
-
-## 🎨 Visual of Website
-<img width="396" height="543" alt="Image" src="https://github.com/user-attachments/assets/3d0655d3-ee50-4d8c-bf06-1f180dcb099d" />
 
 ## 🔥 Features in Website
 - Includes and my latest video posted on YouTube.
