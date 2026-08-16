@@ -1,19 +1,19 @@
-# 🌐 Latest Personal Website Project
+# Latest Personal Website Project
 
-## 📘 Table of Contents
-- 🔥 Features in Website
-- 🛠️ How it Works
-- 🎯 Requirements
-- 💻 How to Run
+## Table of Contents
+- Features in Website
+- How it Works
+- Requirements
+- How to Run
 
-## 🔥 Features in Website
+## Features in Website
 - Includes and my latest video posted on YouTube.
 - Organized timeline shown for completed projects in the past and upcoming projects for the future.
 - Social accounts are referenced under the programming languages (e.g. Discord Server, YouTube, etc).
 - Showcases the programming languages, which I am comfortable with shown under the main title.
 - The title displays my real name. 
 
-## 🛠️ How it Works
+## How it Works
 - Clickable programming language icons enhanced that will bring you to a Wikipedia page explaining that specfic type of language.
 - Heart beat scaling feature embedded towards latest video to bring attention, when hovering will it stop animation.
 - Crystal glass background included in project timeline for modern appearance and has hovering box shadow effect.
@@ -21,14 +21,14 @@
 - Light blue background attached for cool aesthetic to overall website.
 - Clicking on the video will play without going to YouTube.
 
-## 🎯 Requirements
+## Requirements
 - IDE (e.g., VS Code, Eclipse, or IntelliJ).
 - HTML (HyperText Markup Language).
 - CSS (Cascading Style Sheets).
 - JS (JavaScript).
 - Live Reloading or Hot Reloading (e.g., Live Server, and etc).
 
-## 💻 How to Run
+## How to Run
 1) Copy the HTML code into a HTML file named "index.html".
 2) Copy the CSS code into a CSS file named "style.css".
 3) Copy the JS code into a JS file named "function.js".
